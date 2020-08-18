@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import {
   BrowserRouter as Router, Route,
-  Switch, Link
+  Switch, Link, Redirect
 } from "react-router-dom";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import Login from "./login";
