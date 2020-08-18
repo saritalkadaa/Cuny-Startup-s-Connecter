@@ -43,7 +43,7 @@ class App extends Component {
                   className="d-inline-block align-top"
                 />{' '}
               </Navbar.Brand>
-
+        <Redirect exact from="/" to="/home" />
               <Navbar.Collapse>
                 <Nav className="auto">
                   <NavItem eventkey={1} href="/">
