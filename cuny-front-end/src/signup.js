@@ -22,7 +22,7 @@ class Signup extends Component {
       lastName: '',
     };
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleChange = this.handleChange.bind(this); //when functions are passed, we have to bind 'this'
+    this.handleChange = this.handleChange.bind(this);
   }
 
 
@@ -39,7 +39,7 @@ class Signup extends Component {
     event.preventDefault();
     const { email, password, firstName, lastName } = this.state;
     await axios.post(
-      'https://up076quzuj.execute-api.us-east-1.amazonaws.com/dev/users',  //POST URL 
+      'https://jrkjxx158g.execute-api.us-east-1.amazonaws.com/dev/users',  //POST URL 
       { email: `${email}`, password: `${password}`, firstName: `${firstName}`, lastName: `${lastName}` }
 
     )
