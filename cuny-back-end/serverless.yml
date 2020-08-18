@@ -4,6 +4,9 @@ service: cuny-connector-backend
 
 custom:
   tableName: User
+  dynamodb:
+    start:
+      migrate: true
 
 provider:
   name: aws
@@ -93,4 +96,6 @@ resources:
         TableName: ${self:custom.tableName}
 
 plugins:
+  - serverless-dynamodb-local
   - serverless-offline #serverless-offline needs to be last in the list
+
