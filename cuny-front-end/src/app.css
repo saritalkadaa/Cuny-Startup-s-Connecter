@@ -53,14 +53,12 @@
   background: url("https://static.wixstatic.com/media/d0baa86e29104d48b0387a894600ecca.jpg/v1/fill/w_1024,h_991,al_c,q_85,usm_0.66_1.00_0.01/d0baa86e29104d48b0387a894600ecca.webp") no-repeat center center fixed;
   background-size: cover;
 }
-/* .Login{
-  background-color: #d9d9d9;
 
+#aboutUs{
+  text-align:center;
+  color:#FF7000;
+  font-family: 'Dosis', sans-serif;
 }
-.background{
-  background-color: #d9d9d9;
-} */
-
 
 body{
   margin-top: auto;
